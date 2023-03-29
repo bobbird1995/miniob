@@ -18,5 +18,5 @@ services:
       #        export PRIVATE_KEY=$(cat ~/.ssh/id_rsa) && docker-compose up -d --build
       #    Windows powershell: 
       #        $env:PRIVATE_KEY=$(cat ~/.ssh/id_rsa) && docker-compose up -d --build
-      - REPO_ADDR=https://github.com/bobbird1995/miniob.git
+      - REPO_ADDR=git@github.com:bobbird1995/miniob.git
       - PRIVATE_KEY=${PRIVATE_KEY} 
